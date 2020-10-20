@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Jokanola Yusuff Olatunji" />
+    <meta name="author" content="Jokanola" />
+    <title>Jokanola Yusuff | Portfolio</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link href="css/styleproject.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+     <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="page-top">
+    <section>
+      <div id="cover">
+        <h2 class="introductory">Hi, my name is <span class="style_name">Jokanola Yusuff Olatunji</span>. <br /> I'm Javascript Developer.</h2> 
+        <br />
+
+        <div class="cover_icon slideup"> <a href="#project_overview"><i class="fa fa-angle-double-down" aria-hidden="true" style="font-size: 50px;"></i></a> </div>
+       </div>
+             
+    </section>
+
+        
+   <!--  About My Workflow  -->
+   <section id="myworkflow">
+    
+   </section>
+
+   <!-- Project Overview -->
+   <section id="project_overview">
+     <div class="container">
+       <div class="row p-3">
+         <div class="col-md-4 mb-3 slideright">
+          <h3>Business page</h3>
+           This website was built with HTML5, CSS3, Bootstrap and Javascript<br />
+          <button class="mt-3 mr-5"><a href="https://jocanola.github.io/elitecomputertechnology.github.io/">Check Live</a> </button> <button class="mt-3"><a href="https://github.com/jocanola/elitecomputertechnology.github.io">Source code</a> </button>
+         </div>
+         <div class="col-md-8">
+           <img class="project_image slideleft" src="image/elite-computer.gif" alt="">
+         </div>
+       </div>
+
+        <div class="row p-3">
+         <div class="col-md-4 mb-3 slideright">
+          <h3>E-commerce (Amazon clone)</h3>
+          This website was built using Reactjs, with e-commerce functionalities, creating and login to an account, adding products to cart, proceed to checkout with the total price of the products calculating as the products is added, order summary shown in order page, the stripe functionality to pay with your credit is temporarily disabled<br />
+           <button class="mt-3 mr-5"><a href="clone-6d4d2.web.app/">Check Live</a> </button> <button class="mt-3"><a href="https://github.com/jocanola/amazon-clone">Source code</a> </button>
+         </div>
+         <div class="col-md-8">
+           <img class="project_image slideleft" src="image/amazon-clone.gif" alt="">
+         </div>
+       </div>
+
+
+        <div class="row p-3">
+         <div class="col-md-4 mb-3 slideright">
+          <h3>Online Quiz System</h3>
+           This was build using reactjs. Admin permission is required, student id, automatic grading,the questions and answers are arranged in an array and the result is submitted in the firestore db (from firebase)<br />
+           <button class="mt-3 mr-5"><a href="https://golden-quiz-70fe9.web.app/">Check Live</a> </button> <button class="mt-3"><a href="https://github.com/jocanola/golden-quiz/">Source code</a> </button>
+         </div>
+         <div class="col-md-8">
+           <img class="project_image slideleft" src="image/online-quiz-system.gif" alt="">
+         </div>
+       </div>
+
+
+      <div class="row p-3">
+         <div class="col-md-4 mb-3 slideright">
+          <h3>Todo List</h3>
+           This was build using HTML, CSS and Javascript, with ability to add what to do, edit what to do, 
+           remove from the list, add to complete section<br />
+           <button class="mt-3 mr-5"><a href="https://jocanola.github.io/todolist.github.io/">Check Live</a> </button> <button class="mt-3"><a href="https://github.com/jocanola/todolist.github.io">Source code</a></button>
+         </div>
+         <div class="col-md-8">
+           <img class="project_image slideleft" src="image/todo-list.gif" alt="">
+         </div>
+       </div>
+
+
+        <div class="row p-3">
+         <div class="col-md-4 mb-3 slideright">
+          <h3>Todo List (Using reactjs)</h3>
+           This was build using Using Reactjs, with ability to add what to do, edit what to do, 
+           remove from the list, add to complete section<br />
+           <button class="mt-3 mr-5"><a href="https://jocanola.github.io/todolist.github.io/">Check Live</a> </button> <button class="mt-3"><a href="https://github.com/jocanola/todolist.github.io">Source code</a></button>
+         </div>
+         <div class="col-md-8">
+           <img class="project_image slideleft" src="image/todo-list.gif" alt="">
+         </div>
+       </div>
+
+   </section>
+
+    <!-- Copyright Section-->
+  <footer>
+      <div class="copyright py-4 text-center text-black">
+      <div class="container"><small>Copyright © jokanola.it 2020</small></div>
+    </div>
+
+  </footer>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+      var slideUp = {
+          distance: '50px',
+          origin: 'bottom',
+          reset:true,
+          delay: 800,
+          overflow:"hidden"
+      };
+
+      var slideRight = {
+          distance: '50px',
+          origin: 'left',
+          reset:true,
+          delay: 800,
+          overflow:"hidden"
+      };
+
+      var slideLeft = {
+          distance: '50px',
+          origin: 'right',
+          reset:true,
+          delay: 800,
+          overflow:"hidden"
+      };
+      ScrollReveal().reveal('.slideup', slideUp);
+      ScrollReveal().reveal('.introductory', slideLeft);
+      ScrollReveal().reveal('.slideright', slideRight);
+      ScrollReveal().reveal('.slideleft', slideLeft);
+      document.addEventListener("mouseover", parallax);
+     </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: black;
+}
+
+#cover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background-color: white;
+	color: black;
+	
+
+}
+
+.cover_icon {
+	margin-top: 15px;
+}
+
+
+.introductory{
+	font-family:fantasy;
+	font-weight: 800;
+	
+}
+
+.style_name{
+	color: cyan;
+	text-transform: uppercase;
+}
+section{
+	display: relative;
+	/*height: 100vh;*/
+	background: #263340;
+	color: white;
+}
+
+.project_image{
+	width: 100%;
+}
+
+.container button{
+	background-color: white;
+	color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: white;
+	box-shadow: 2px 2px white;
+}
+
+.container button a{
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+}
